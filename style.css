@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #c8102e;
+    background-color: #c8102e; /* Vermelho */
     color: white;
     padding: 20px;
     text-align: center;
@@ -35,13 +35,32 @@ main {
 section {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: white;
+    border: 2px solid #c8102e; /* Borda vermelha */
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #c8102e; /* Títulos em vermelho */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #222;
+    background-color: #222; /* Preto */
     color: white;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #c8102e; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a50024; /* Vermelho mais escuro */
 }
